@@ -56,17 +56,16 @@ nav {
 }
 
 #fotos-dj {
-    text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #dj1 {
-    float: left;
+   
 }
 
 #dj2 {
-    float: right;
+   
 }
 
 .calendario {
@@ -111,7 +110,7 @@ nav {
 
 #container {
     text-align: center;
-    border-color: red;
+    
 }
 
 #nc {
