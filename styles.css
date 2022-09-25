@@ -16,7 +16,7 @@ header {
     padding: 10px;
 }
 
-.logo :hover{
+.logo :hover {
     transition: all 0.5s;
     transform: scale(150%)rotate(-15deg);
 }
@@ -47,7 +47,7 @@ nav {
     flex-direction: row;
     font-size: 18px;
     margin: 5px;
-    text-transform: uppercase;       
+    text-transform: uppercase;
 }
 
 .nav-menu-items :hover {
@@ -67,33 +67,29 @@ nav {
 }
 
 #dj1 {
-   padding-left: 300px;   
+    padding-left: 300px;
 }
 
-#dj1 :hover{
+#dj1 :hover {
     transition: all 0.5s;
-    transform: rotate(-15deg)scale(150%);    
+    transform: rotate(-15deg)scale(150%);
 }
 
 #dj2 :hover {
- transition: all 0.5s;
- transform: rotate(15deg)scale(150%);   
+    transition: all 0.5s;
+    transform: rotate(15deg)scale(150%);
 }
 
 .calendario {
-    text-align: center;
-    font-size: 15px;
-}
-
-.weekdays div{
     display: grid;
-    grid-template-columns: 7;
-    grid-template-rows: 5;
-    width: 9.6%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     color: grey;
-    text-align: center;
     padding: 10px;
-    border: solid 2px white;
+    border: solid white 2px;
+    text-align: center;
 }
 
 #reservas {
@@ -124,7 +120,7 @@ nav {
 
 #container {
     text-align: center;
-    
+
 }
 
 #nc {
